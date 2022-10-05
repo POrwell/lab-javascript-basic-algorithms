@@ -34,3 +34,15 @@ for (let j = h2length - 1; j >= 0; j--) {
     navString += char2;
 }
 console.log(navString);
+
+if (hacker1 < hacker2) {
+    console.log("The driver's name goes first.");
+}
+
+else if (hacker1 > hacker2) {
+    console.log("Yo, the navigator goes first definitely.");
+}
+
+else {
+    console.log("What?! You both have the same name?");
+}

@@ -20,4 +20,17 @@ else if (h1length === h2length) {
 else {
     console.log("Something's gone wrong");
 }
-    // Iteration 3: Loops
+// Iteration 3: Loops
+let driverString = ``;
+for (let i = 0; i < h1length; i++) {
+    const char = hacker1[i];
+    driverString += char + " ";
+}
+console.log(driverString.toUpperCase());
+
+let navString = ``;
+for (let j = h2length - 1; j >= 0; j--) {
+    const char2 = hacker2[j];
+    navString += char2;
+}
+console.log(navString);
